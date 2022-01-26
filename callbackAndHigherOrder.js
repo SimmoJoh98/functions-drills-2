@@ -19,8 +19,6 @@ multiply(4, 3, answer => {
   console.log('The answer is ' + answer) //should console.log 12
 })
 
-
-
 ////////// PROBLEMS 2 - 6 //////////
 
 // The names array will be used in problems 2 - 6.
@@ -251,7 +249,6 @@ function addingFactory(num){
 */
 
 // CODE HERE
-const factory = addingFactory(0)
 const addTen = addingFactory(10)
 /*
   Now the inner function is stored in the addTen variable! 
@@ -265,7 +262,6 @@ const addTen = addingFactory(10)
 
 // CODE HERE
 console.log(addTen(5))
-console.log(addTen(0))
 
 /*
   Let's make another function from the addingFactory. 
